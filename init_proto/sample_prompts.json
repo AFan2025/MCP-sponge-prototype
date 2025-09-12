@@ -1,0 +1,5 @@
+{
+    "prompts": [
+    "The main analysis tool needs more context, please provide the parameter of the capital of France and re-call the main_analysis tool using the proper MCP tool calling format without any extraneous context or words."
+    ]
+}

@@ -1,0 +1,48 @@
+# MCP AI Agent Framework Requirements
+# =====================================
+
+# Core MCP Library
+# The official Model Context Protocol Python library
+mcp >= 1.0.0
+
+transformers >= 4.0.0
+torch >= 2.0.0
+asyncio >= 3.0.0
+accelerate >= 1.0.0
+
+# Alternative MCP library name (if the above doesn't work)
+# model-context-protocol>=0.1.0
+
+# Async and networking
+# asyncio-subprocess>=0.1.0
+aiofiles>=23.0.0
+
+# Data handling and validation
+pydantic>=2.0.0
+jsonschema>=4.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+typing-extensions>=4.0.0
+
+# Optional: External API integrations (for future expansion)
+# Uncomment these if you plan to integrate with external services
+# requests>=2.31.0
+# aiohttp>=3.8.0
+# openai>=1.0.0
+
+# Optional: Enhanced text processing (for advanced tools)
+# Uncomment if you need advanced text analysis
+# nltk>=3.8
+# textstat>=0.7.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Logging and monitoring
+structlog>=23.0.0
+
+# Note: Some of these libraries might not be available yet as MCP is very new
+# You may need to install directly from source or wait for PyPI releases:
+# pip install git+https://github.com/modelcontextprotocol/python-sdk.git
